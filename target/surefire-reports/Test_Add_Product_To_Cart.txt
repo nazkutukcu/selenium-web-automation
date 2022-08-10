@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: Test_Add_Product_To_Cart
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 9.498 s <<< FAILURE! - in Test_Add_Product_To_Cart
+add_product_to_cart  Time elapsed: 0.123 s  <<< ERROR!
+java.lang.NumberFormatException: For input string: ""
+	at Test_Add_Product_To_Cart.add_product_to_cart(Test_Add_Product_To_Cart.java:36)
+
+go_to_cart  Time elapsed: 0.052 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: product was not added to cart ==> expected: <true> but was: <false>
+	at Test_Add_Product_To_Cart.go_to_cart(Test_Add_Product_To_Cart.java:45)
+
